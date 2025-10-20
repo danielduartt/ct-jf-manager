@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil - CT JF Manager</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <a href="dashboard.html" class="logo-link"><img src="./images/logo.jpg" alt="Logo"></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="videoteca.html">Videoteca</a></li>
+                    <li><a href="campeonatos.html">Campeonatos</a></li>
+                    <li><a href="ranking.html">Ranking</a></li>
+                    <li><a href="perfil.html" class="current">Meu Perfil</a></li>
+                    <li><a href="index.html">Sair</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="section">
+        <div class="container">
+            <div class="text-center" style="margin-bottom: 3rem;">
+                <h1 class="page-title">Meu Perfil e Carteirinha</h1>
+                <p class="page-subtitle">Sua identidade de atleta e informações cadastrais.</p>
+            </div>
+
+            <div class="perfil-container">
+                <aside>
+                    <div class="carteirinha-card">
+                        <div class="carteirinha-header">
+                            <img src="./images/logo.jpg" alt="Logo CT">
+                        </div>
+                        <div class="carteirinha-body">
+                            <h2>Daniel Nunes Duarte</h2>
+                            <span class="graduacao" style="background-color: #4F46E5;">Faixa Roxa</span>
+                            
+                            <div class="xp-progress-container">
+                                <p>Progresso para Faixa Marrom</p>
+                                <div class="xp-bar-outer">
+                                    <div class="xp-bar-inner" style="width: 62.5%;"></div>
+                                </div>
+                                <p class="xp-text">1250 / 2000 XP</p>
+                            </div>
+
+                        </div>
+                        <div class="carteirinha-footer">
+                            <span class="id-unico">ID: 20250013550</span>
+                        </div>
+                    </div>
+                </aside>
+
+                <section>
+                    <form action="dashboard.html" class="card">
+                        <h2>Informações Pessoais</h2>
+                        <p style="color: var(--text-secondary); margin-bottom: 2rem;">Mantenha seus dados de contato atualizados.</p>
+
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" value="Daniel Nunes Duarte" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail (não pode ser alterado)</label>
+                            <input type="email" id="email" value="daniel.n.duarte@email.com" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" value="(98) 98888-7777" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Salvar Alterações</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="main-footer"><p>&copy; 2025 CT Josuelmo Farias</p></footer>
+</body>
+</html>

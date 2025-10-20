@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Experimental - CT JF Manager</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-card">
+            <div class="auth-header">
+                <a href="index.html"><img src="./images/logo.jpg" alt="Logo"></a>
+                <h1>Agende sua Aula Experimental</h1>
+            </div>
+            <form id="form-aula">
+                <div class="form-group">
+                    <label for="nome-interessado">Seu nome</label>
+                    <input type="text" id="nome-interessado" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefone-interessado">Seu telefone</label>
+                    <input type="tel" id="telefone-interessado" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar via WhatsApp</button>
+            </form>
+            <div class="auth-footer">
+                <p><a href="index.html">Voltar ao início</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('form-aula').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const nome = document.getElementById('nome-interessado').value;
+            const telefone = document.getElementById('telefone-interessado').value;
+            const mensagem = `Olá! Meu nome é ${nome} (${telefone}) e gostaria de agendar uma aula experimental.`;
+            const numeroWhatsApp = '5598000000000'; // Substitua pelo número do CT
+            const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
+            window.open(url, '_blank');
+        });
+    </script>
+</body>
+</html>

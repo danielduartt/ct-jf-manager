@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interesse em Campeonato - CT JF Manager</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <a href="dashboard.html" class="logo-link"><img src="./images/logo.jpg" alt="Logo"></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="videoteca.html">Videoteca</a></li>
+                    <li><a href="campeonatos.html" class="current">Campeonatos</a></li>
+                    <li><a href="ranking.html">Ranking</a></li>
+                    <li><a href="perfil.html">Meu Perfil</a></li>
+                    <li><a href="index.html">Sair</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="section">
+        <div class="container" style="max-width: 700px;">
+            <div class="text-center">
+                <h1 class="page-title">Manifestar Interesse</h1>
+                <p class="page-subtitle">Confirme sua participação no Campeonato Estadual de Jiu-Jitsu 2025.</p>
+            </div>
+            <form action="campeonatos.html" class="card">
+                <div class="form-group">
+                    <label for="weight">Sua Categoria de Peso (Ex: Pena, Leve)</label>
+                    <input type="text" id="weight" required>
+                </div>
+                <div class="form-group">
+                    <label for="age">Sua Categoria de Idade (Ex: Adulto, Master 1)</label>
+                    <input type="text" id="age" required>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Confirmar Interesse</button>
+            </form>
+        </div>
+    </main>
+    <footer class="main-footer"><p>&copy; 2025 CT Josuelmo Farias</p></footer>
+</body>
+</html>
