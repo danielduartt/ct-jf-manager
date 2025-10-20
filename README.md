@@ -23,7 +23,7 @@ O repositório está organizado da seguinte forma:
 ```
 .
 ├── ct-jf-manager-front/    # Contém todo o código do protótipo estático (HTML, CSS, Imagens)
-├── PRD/PRD/PRD_DanielNunesDuarte_ 20250013550.pdf #Contem o PRD do Projeto
+├── PRD/PRD_DanielNunesDuarte_ 20250013550.pdf #Contem o PRD do Projeto
 └── README.md               # Este arquivo
 ```
 
