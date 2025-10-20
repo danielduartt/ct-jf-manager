@@ -16,19 +16,6 @@ O **CT JF Manager** é uma plataforma digital desenvolvida para modernizar a ges
 
 A solução visa dar transparência ao progresso dos alunos, facilitar o trabalho administrativo do mestre e servir como um portal profissional para a captação de novos atletas.
 
-## ✨ Funcionalidades Principais (MVP)
-
-Esta versão do projeto (MVP) foca nas funcionalidades essenciais para a operação do centro de treinamento:
-
-* **Autenticação e Perfis:** Permite o auto-cadastro de alunos e o acesso seguro à plataforma.
-* **Gestão de Aulas:** O mestre pode cadastrar aulas, selecionar as técnicas ensinadas e registrar a presença dos alunos através de um checklist simplificado.
-* **Progressão Automática:** O sistema calcula e atribui XP automaticamente com base na presença e nas novas técnicas aprendidas, fornecendo um feedback claro da evolução.
-* **Videoteca de Técnicas:** Uma biblioteca central com vídeos do YouTube para que os alunos possam revisar o conteúdo das aulas.
-* **Dashboards:** Painéis de controle para o aluno (com suas métricas de frequência, XP e técnicas) e para o mestre.
-* **Ranking Mensal:** Sistema de gamificação que classifica os alunos com base na frequência e no XP acumulado, incentivando o engajamento.
-* **Painel de Campeonatos:** Área para divulgar eventos e permitir que os alunos manifestem interesse em competir.
-* **Página Pública:** Um portal institucional completo para apresentar o CT a pais e interessados, com um fluxo para agendar uma aula experimental via WhatsApp.
-
 ## 📁 Estrutura do Projeto
 
 O repositório está organizado da seguinte forma:
@@ -36,7 +23,7 @@ O repositório está organizado da seguinte forma:
 ```
 .
 ├── ct-jf-manager-front/    # Contém todo o código do protótipo estático (HTML, CSS, Imagens)
-├── PRD_CT_JF_v4_Version2.pdf
+├── PRD/PRD/PRD_DanielNunesDuarte_ 20250013550.pdf #Contem o PRD do Projeto
 └── README.md               # Este arquivo
 ```
 
